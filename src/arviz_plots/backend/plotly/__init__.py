@@ -742,7 +742,7 @@ def ciliney(
     return line_object
 
 
-# general plot appeareance
+# general plot appearance
 def title(string, target, *, size=unset, color=unset, **artist_kws):
     """Interface to plotly for adding a title to a plot."""
     kwargs = {"size": size, "color": color}
